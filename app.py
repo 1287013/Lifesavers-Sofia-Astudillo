@@ -1,9 +1,4 @@
-```python
-import os
-
-os.makedirs("github_upload", exist_ok=True)
-
-standalone_app_py = '''from __future__ import annotations
+from __future__ import annotations
 
 import copy
 import io
@@ -881,32 +876,6 @@ with tabs[3]:
                     st.rerun()
                 except ValueError as err:
                     st.error(f"Import Rejected: {err}")
-
-with tabs[4]:
-    st.subheader("Upcoming Modules (Unimplemented in Stage 1)")
-    st.markdown(
-        """
-        Per the Career Venture Lab staged build plan, these modules are intentionally marked **NOT YET IMPLEMENTED** until Stage 1 tests pass:
-        - **Stage 2:** Full Report Center (Income Statement, Cash Flow, Budget Variance, Simplified Balance Sheet + PDF export), AI Departmental Recommendation Import/Approval Queue, and Costed Marketing Studio.
-        - **Stage 3:** Frozen-Snapshot Practice Assessment Panel (with private server-side teacher key separation) and Cross-Course Connections Evidence Panel.
-        - **Stage 4 (Optional):** Fictional Workshop Registration Storefront (`DEMONSTRATION BUSINESS — NO REAL PURCHASES`).
-        """
-    )
-'''
-
-with open("github_upload/app.py", "w", encoding="utf-8") as f:
-    f.write(standalone_app_py)
-
-print("Generated github_upload/app.py")
-
-
-```
-
-```text
-Generated github_upload/app.py
-
-
-```
 
 with tabs[4]:
     st.subheader("Upcoming Modules (Unimplemented in Stage 1)")
