@@ -909,7 +909,6 @@ Generated github_upload/app.py
 ```
 
 Here is the downloadable `app.py` file:
-[file-tag: code-generated-file-c76246ef-2c13-4b33-9b8b-b1ad26ba7532]
 
 And in case you want to copy-paste it straight into GitHub (**Add file → Create new file → name it `app.py**`), here is the exact code too:
 
